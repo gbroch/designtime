@@ -3,9 +3,7 @@
 Welcome to the sample scenarios repo. The repo contains sample code and design patterns for end-to-end solutions, involving Azure services, Power Automate, Power Apps, and Power BI.
 
 ## Scenarios
-Below is a listing of the sample solutions available.  These sample solution files are meant for demonstration purposes only to quickly showcase various features across our platform.  
-
-| Demo Name
+Below is a listing of the sample solutions available.  These sample solutions are meant to demonstrate patterns & possible approaches to solving specific business scenarios, and should not be used as final/production solutions.
 
 | [Real-Time License Assign with GraphAPI](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/d365-realtime-license-assign)
 
