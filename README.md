@@ -2,6 +2,15 @@
 
 Welcome to the sample scenarios repo. The repo contains sample code and design patterns for end-to-end solutions, involving Azure services, Power Automate, Power Apps, and Power BI.
 
+## Scenarios
+Below is a listing of the sample solutions available.  These sample solution files are meant for demonstration purposes only to quickly showcase various features across our platform.  
+
+| Demo Name
+
+| [Real-Time License Assign with GraphAPI](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/d365-realtime-license-assign)
+
+| [Pega Migration to Dataverse](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/migration-pega-to-d365)
+
 ## Resources
 - [Dataverse developer docs](https://learn.microsoft.com/power-apps/developer/data-platform/)
 - [Model-driven apps developer docs](https://learn.microsoft.com/power-apps/developer/model-driven-apps/)
