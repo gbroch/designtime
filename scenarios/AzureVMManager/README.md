@@ -9,31 +9,16 @@ CosmosDB provides an out of the box output for PowerBI via Azure Synapse, which 
 
 ![Azure VM Management Design Pattern](img/Architecture.png)
 
-## Scenarios
-Below is a listing of the sample solutions available.  These sample solutions are meant to demonstrate patterns & possible approaches to solving specific business scenarios, and should not be used as final/production solutions.
+## Environment Setup
 
-| [Real-Time License Assign with GraphAPI](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/d365-realtime-license-assign)
+* Azure App Registration with User Impersonation delegated permissions to the Azure Service Management API.
+* Azure Cosmos DB with a container for storing the VM images
 
-| [Pega Migration to Dataverse](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/migration-pega-to-d365)
+## Using the solution
 
-## Resources
-- [Dataverse developer docs](https://learn.microsoft.com/power-apps/developer/data-platform/)
-- [Model-driven apps developer docs](https://learn.microsoft.com/power-apps/developer/model-driven-apps/)
-- [Canvas apps developer docs](https://learn.microsoft.com/power-apps/maker/canvas-apps/dev-enterprise-intro)
-- [Power Apps component framework docs](https://learn.microsoft.com/power-apps/developer/component-framework/overview)
-- [Power Platform developer docs](https://learn.microsoft.com/power-platform/developer)
+* Ensure to pre-create the Azure App Registration and the Cosmos DB resources first
+* Import the [Solution Zip](solutions/VMManagementFlows_1_0_0_1.zip) into your existing Dev / Non-Prod Dataverse Environment
+* Upon import, you will be prompted to create the connections for Azure Resource Manager, Azure Virtual Machines, the Custom Connector, and Azure CosmosDB
+* Ensure you update the connection references & configuration for the included flows, specifically the steps for connecting to CosmosDB.
 
 
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
