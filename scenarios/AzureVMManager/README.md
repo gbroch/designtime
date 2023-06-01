@@ -20,5 +20,5 @@ CosmosDB provides an out of the box output for PowerBI via Azure Synapse, which 
 * Import the [Solution Zip](solutions/VMManagementFlows_1_0_0_1.zip) into your existing Dev / Non-Prod Dataverse Environment
 * Upon import, you will be prompted to create the connections for Azure Resource Manager, Azure Virtual Machines, the Custom Connector, and Azure CosmosDB
 * Ensure you update the connection references & configuration for the included flows, specifically the steps for connecting to CosmosDB.
-
+* The App canvas app incuded in the solution is provided as reference. When you create your own PowerBI report, you may want to create your own new canvas app instead.
 

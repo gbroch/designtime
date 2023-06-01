@@ -9,6 +9,8 @@ Below is a listing of the sample solutions available.  These sample solutions ar
 
 | [Pega Migration to Dataverse](https://github.com/microsoft/GBB-Business-Applications/tree/main/demos/migration-pega-to-d365)
 
+| [Azure Virtual Machine Manager](scenarios/AzureVMManager)
+
 ## Resources
 - [Dataverse developer docs](https://learn.microsoft.com/power-apps/developer/data-platform/)
 - [Model-driven apps developer docs](https://learn.microsoft.com/power-apps/developer/model-driven-apps/)
